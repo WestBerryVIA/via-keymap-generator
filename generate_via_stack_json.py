@@ -7,7 +7,7 @@ import git   # requires GitPython
 
 json_files = []
 
-git.Git("./").clone("https://github.com/the-via/keyboards.git")
+git.Git("./").clone("https://github.com/WestBerryVIA/keyboards.git")
 
 for subdir, dirs, files in os.walk("./keyboards/src"):
     for filename in files:
