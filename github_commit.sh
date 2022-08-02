@@ -2,7 +2,7 @@
 
 set -e
 
-git clone https://$GIT_TOKEN@github.com/WestBerryVIA/-via-keymap-precompiled.git
+git clone https://$GIT_TOKEN@github.com/WestBerryVIA/via-keymap-precompiled.git
 cd via-keymap-precompiled
 git config user.email "vial@westberry.com"
 git config user.name "Vial Bot"
