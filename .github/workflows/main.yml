@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  schedule:
-    - cron:  '20 * * * *'  # Runs at the 20th minute of every hour
+  # schedule:
+  #   - cron:  '20 * * * *'  # Runs at the 20th minute of every hour
   workflow_dispatch:
 
 jobs:
